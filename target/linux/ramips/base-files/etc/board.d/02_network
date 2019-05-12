@@ -455,6 +455,7 @@ ramips_setup_interfaces()
 			"1:lan:3" "2:lan:2" "3:lan:1" "4:wan" "6@eth0"
 		;;
 	zbtlink,zbt-we1226|\
+	kn_4g-b|\
 	y1)
 		ucidef_add_switch "switch0" \
 			"0:lan:2" "1:lan:1" "4:wan" "6@eth0"
@@ -576,6 +577,7 @@ ramips_setup_macs()
 		;;
 	kn_rc|\
 	kn_rf|\
+	kn_4g-b|\
 	kng_rc)
 		wan_mac=$(mtd_get_mac_binary factory 40)
 		;;

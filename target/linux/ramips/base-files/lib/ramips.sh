@@ -691,6 +691,9 @@ ramips_board_detect() {
 	*"ZyXEL Keenetic")
 		name="kn"
 		;;
+	*"ZyXEL Keenetic 4G rev.B")
+		name="kn_4g-b"
+		;;
 	*"ZyXEL Keenetic Omni")
 		name="kn_rc"
 		;;

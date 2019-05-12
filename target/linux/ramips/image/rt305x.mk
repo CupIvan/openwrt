@@ -910,6 +910,13 @@ define Device/kn
 endef
 TARGET_DEVICES += kn
 
+define Device/zyxel_keenetic-4g-b
+  DTS := kn_4g-b
+  IMAGE_SIZE := $(ralink_default_fw_size_8M)
+  DEVICE_TITLE := ZyXEL Keenetic 4G rev.B
+endef
+TARGET_DEVICES += zyxel_keenetic-4g-b
+
 define Device/zyxel_keenetic-start
   DTS := kn_st
   IMAGE_SIZE := $(ralink_default_fw_size_4M)
